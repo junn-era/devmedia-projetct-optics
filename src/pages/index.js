@@ -4,6 +4,7 @@ import Header from '@/componentes/Header';
 import SectionCover from '@/componentes/SectionCover';
 import SectionProducts from '@/componentes/SectionProducts';
 import SectionAbout from '@/componentes/SectionAbout';
+import SectionContact from '@/componentes/SectionContact';
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <SectionCover />
         <SectionProducts />
         <SectionAbout />
+        <SectionContact />
       </main>
 
     </>

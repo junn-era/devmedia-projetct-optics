@@ -1,0 +1,55 @@
+.section_contact {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  padding: 6.25rem 1.25rem;
+  background-color: #05031B;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.contact_container div {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem 0;
+}
+
+.contact_content img {
+  width: 1rem;
+}
+
+.contact_content span {
+  font-size: 0.75rem;
+  margin: 0 0 0 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .section_contact {
+    padding: 3.75rem 1.25rem;
+  }
+}
+@media (max-width: 550px) {
+  .section_contact {
+    padding: 3.75rem 0.75rem;
+  }
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_content {
+    align-items: center;
+  }
+  .contact_content div {
+    width: 9.25rem;
+  }
+}
+
