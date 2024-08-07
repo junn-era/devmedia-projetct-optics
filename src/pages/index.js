@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from '@/componentes/Header';
+import SectionCover from '@/componentes/SectionCover';
+import SectionProducts from '@/componentes/SectionProducts';
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <SectionCover />
+        <SectionProducts />
       </main>
 
     </>

@@ -6,15 +6,14 @@ import styles from '@/componentes/Header/Header.module.css';
 export default function Header() {
   return (
     <header className={styles.header}>
+      <Image src={Logo} alt='logomarca' />
       <div>
-        <Image src={Logo} alt='logomarca' className={styles.header_logo} />
+        <nav>
+          <Link href='#products'>PRODUTOS</Link>
+          <Link href='#about'>SOBRE</Link>
+          <Link href='#contact'>CONTATO</Link>
+        </nav>
       </div>
-
-      <nav >
-        <Link href='#products'>PRODUTOS</Link>
-        <Link href='#about'>SOBRE</Link>
-        <Link href='#contact'>CONTATO</Link>
-      </nav>
     </header>
   );
 };

@@ -1,0 +1,57 @@
+.section_cover {
+  height: 80vh;
+  background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+  background-image: url('../../../public/capa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section_cover div {
+  padding: 1.25rem;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_cover p,
+.section_cover h1 {
+  max-width: 500px;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.section_cover p {
+  font-size: 2.25rem;
+  color: rgb(196, 196, 196);
+}
+
+.section_cover h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.75rem;
+  margin: 0;
+  line-height: 4.25rem;
+  letter-spacing: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .section_cover h1 {
+    font-size: 2.5rem;
+    max-width: 21.75rem;
+  }
+  .section_cover p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .section_cover {
+    background-position: 89% center;
+  }
+  .section_cover div {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
